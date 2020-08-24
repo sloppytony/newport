@@ -1,0 +1,19 @@
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.section1 {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  color: rgb(16, 130, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.everything {
+  height: 200%;
+}

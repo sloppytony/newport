@@ -1,0 +1,29 @@
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.section1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: rgb(16, 130, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: rgb(16, 130, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainTitle {
+  font-family: "Righteous", cursive;
+}
+.everything {
+  height: 200%;
+}

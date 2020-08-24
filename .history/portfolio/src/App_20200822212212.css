@@ -1,0 +1,66 @@
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.section1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: rgb(16, 130, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section2 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: rgb(16, 130, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainTitle {
+  font-family: "Righteous", cursive;
+  font-size: 900%;
+  display: flex;
+  padding: 5%;
+  text-align: center;
+  color: rgb(214, 214, 214);
+  text-shadow: -3px 3px 3px rgba(44, 44, 44, 0.5);
+}
+
+.mainPara {
+  font-family: "Oswald", sans-serif;
+  font-size: 500%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(214, 214, 214);
+  padding: 5%;
+}
+
+.scroll {
+  font-family: "Oswald", sans-serif;
+  font-size: 300%;
+  padding-bottom: 2%;
+  animation: pulse 2.5s infinite;
+}
+.everything {
+  height: 200%;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
